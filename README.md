@@ -10,3 +10,7 @@ Note that this code assumes that the input string contains only alphanumeric cha
 **extractCityAndState**
 
 Note that this code assumes that the state keyword is present in the address and that the keyword is spelled correctly. If the address does not contain a state keyword or the keyword is spelled incorrectly, the city and state variables will be left blank. Additionally, there may be other approaches to identifying the state in an address, depending on the specific structure and content of the address data.
+
+**changeTextCase**
+
+If the input text is in all caps, we use the LCase function to convert it to all lowercase. If the input text is in title case or mixed case, we use the StrConv function with the vbProperCase argument to convert it to title case. If the input text is already in all uppercase, we leave it unchanged.
