@@ -14,3 +14,7 @@ Note that this code assumes that the state keyword is present in the address and
 **changeTextCase**
 
 If the input text is in all caps, we use the LCase function to convert it to all lowercase. If the input text is in title case or mixed case, we use the StrConv function with the vbProperCase argument to convert it to title case. If the input text is already in all uppercase, we leave it unchanged.
+
+**SimpleAI**
+
+In this example, the SimpleAI macro implements a simple decision tree algorithm that predicts whether or not someone should play golf based on the humidity level and wind conditions. The decision tree is represented as a two-dimensional array, where each row represents a node in the tree and the columns represent the decision features and outcomes.
