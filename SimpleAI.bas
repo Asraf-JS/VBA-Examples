@@ -23,7 +23,7 @@ Sub SimpleAI()
     Next i
     
     'Handle the case where the input values do not match the decision tree
-    MsgBox "Invalid input values"
+    MsgBox "Invalid input values "
 End Sub
 
 
