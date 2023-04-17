@@ -18,3 +18,7 @@ If the input text is in all caps, we use the LCase function to convert it to all
 **SimpleAI**
 
 In this example, the SimpleAI macro implements a simple decision tree algorithm that predicts whether or not someone should play golf based on the humidity level and wind conditions. The decision tree is represented as a two-dimensional array, where each row represents a node in the tree and the columns represent the decision features and outcomes.
+
+**Combine_Sheets**
+
+The VBA code provided combines data from two worksheets, Sheet1 and Sheet2, into a new worksheet called "CombinedSheet." You can find the files used in Sample Files folder called "Combined Sheets"
